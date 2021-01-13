@@ -1,0 +1,10 @@
+name: 'Shopify Rapid Theme Deploy'
+description: 'Quicly deploys theme changes to a Shopify store.'
+branding:
+  icon: 'shopping-bag'  
+  color: 'green'
+runs:
+  using: "composite"
+  steps: 
+    - shell: bash
+      run: ${{ github.action_path }}/action.sh
