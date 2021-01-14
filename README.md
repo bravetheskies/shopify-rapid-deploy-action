@@ -57,6 +57,5 @@ jobs:
           SHOPIFY_STORE_URL: ${{ secrets.SHOPIFY_STORE_URL }}
           SHOPIFY_THEME_ID: ${{ secrets.SHOPIFY_THEME_ID }}
           THEME_PATH: ${{ secrets.SHOPIFY_THEME_PATH }}
-        with:
-          flags: --ignored-file=config/settings_data.json --ignored-file=locales/*
+          THEMEKIT_FLAGS: --ignored-file=config/settings_data.json --ignored-file=locales/*
 ```
