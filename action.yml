@@ -1,5 +1,5 @@
 name: 'Shopify Rapid Theme Deploy'
-description: 'Quicly deploys theme changes to a Shopify store.'
+description: 'Quickly deploys theme changes to a Shopify store.'
 branding:
   icon: 'shopping-bag'  
   color: 'green'
