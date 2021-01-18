@@ -22,11 +22,11 @@ The action requires 4 enviroment variables to run, they are listed below.
 Basic full example:
 
 ```yml
-name: Deploy Theme
+name: Deploy theme
 on: [workflow_dispatch]
 jobs:
   build:
-    name: Deploy Theme
+    name: Deploy theme
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repository
@@ -43,11 +43,11 @@ jobs:
 With flags from [Shopify Theme Kit Configuration](https://shopify.github.io/themekit/configuration/#flags):
 
 ```yml
-name: Deploy Theme
+name: Deploy theme
 on: [workflow_dispatch]
 jobs:
   build:
-    name: Deploy Theme
+    name: Deploy theme
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repository
