@@ -40,7 +40,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v2
+        uses: actions/checkout@main
       - name: Deploy theme
         uses: bravetheskies/shopify-rapid-deploy-action@v1
         env:
@@ -61,7 +61,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v2
+        uses: actions/checkout@main
       - name: Deploy theme
         uses: bravetheskies/shopify-rapid-deploy-action@v1
         env:
