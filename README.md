@@ -42,7 +42,7 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@main
       - name: Deploy theme
-        uses: bravetheskies/shopify-rapid-deploy-action@v1
+        uses: bravetheskies/shopify-rapid-deploy-action@main
         env:
           SHOPIFY_APP_API_PASSWORD: ${{ secrets.SHOPIFY_APP_API_PASSWORD }}
           SHOPIFY_STORE_URL: ${{ secrets.SHOPIFY_STORE_URL }}
@@ -63,7 +63,7 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@main
       - name: Deploy theme
-        uses: bravetheskies/shopify-rapid-deploy-action@v1
+        uses: bravetheskies/shopify-rapid-deploy-action@main
         env:
           SHOPIFY_APP_API_PASSWORD: ${{ secrets.SHOPIFY_APP_API_PASSWORD }}
           SHOPIFY_STORE_URL: ${{ secrets.SHOPIFY_STORE_URL }}
